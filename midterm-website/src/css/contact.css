@@ -1,0 +1,17 @@
+.contact body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    font-size: larger;
+}
+  
+.contact .home-link {
+    display: inline-block;
+    text-decoration: none;
+}

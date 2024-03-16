@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    flex-direction: column;
+}
+
+.about-main {
+    padding: 10px;
+}
+
+.mainImage {
+    width: auto;
+    height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    .mainImage {
+        width: auto;
+        height: 200px;
+    }
+}
+
+.resizingImage {
+    height: 200px;
+    width: 200px;
+}
+
+
+p {
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 900px) {
+    .resizingImage {
+        height: 100px;
+        width: 100px;
+    }
+}

@@ -1,0 +1,66 @@
+.main-page {
+    font-size: 16px;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-box {
+    width: 50%;
+    padding: 10px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    min-width: 25rem;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.flex-item {
+    margin-left: 0.4rem; 
+    margin-right: 0.4rem;
+}
+
+.h2 {
+    font-size: 90px;
+}
+
+
+.bottomP{
+    padding-bottom: 2rem;
+}
+
+a {
+    font-size: larger;
+    background-color: darkgrey;
+    border-radius: 0.4rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(105, 179, 179);
+}
+
+li {
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 4px;
+}
+
+body {
+    background-color: lightblue;
+}
