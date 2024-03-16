@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    flex-direction: column;
+}
+
+.about-main {
+    padding: 10px;
+}
+
+.mainImage {
+    width: auto;
+    height: 400px;
+}
+
+.resizingImage {
+    height: 400px;
+    width: 400px;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+a {
+    font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+    .resizingImage {
+        height: 200px;
+        width: 200px;
+    }
+}
