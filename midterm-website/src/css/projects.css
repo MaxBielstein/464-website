@@ -1,0 +1,25 @@
+.projects body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.project-title{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.project {
+    font-size: large;
+    background-color: lightgray;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project-text {
+    max-width: 75rem;
+}

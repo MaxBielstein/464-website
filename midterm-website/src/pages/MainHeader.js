@@ -4,7 +4,7 @@ import '../css/main.css';
 
 function MainHeader() {
   return (
-    <main className="main-page">
+    <main className="main-header">
           <div className="main-box">
               <div>
                   <h2>
@@ -19,6 +19,9 @@ function MainHeader() {
                       </div>
                       <div className="flex-item">
                           <Link to="/resume">Resume Page</Link>
+                      </div>
+                      <div className="flex-item">
+                          <Link to="/projects">Projects Page</Link>
                       </div>
                   </div>
               </div>

@@ -13,7 +13,7 @@ function AboutPage() {
                 My name is Max Bielstein.  I am a software engineer from The University of Nebraska-Lincoln
             </p>
             <p>
-                Built using HTML5
+                Built using HTML5 and React
             </p>
             <img class="resizingImage" src="HTML5Image.png" alt=""></img>
         </div>

@@ -7,13 +7,13 @@ function ResumePage() {
     };
 
     return (
-        <body>
+        <body className="resume-body">
             <h1 class="top-name">Max Bielstein</h1>
             <h3 class="email">mbielstein2@huskers.unl.edu</h3>
             <h3 class="phone">(402)-213-8842</h3>
             <div class="main-container">
                 <div class="inner-container-left">
-                    <div >
+                    <div>
                         <ul>
                             <h3>Experience</h3>
                             <h5>SOFTWARE ENGINEERING INTERN</h5>

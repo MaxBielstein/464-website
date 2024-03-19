@@ -1,9 +1,10 @@
 import './css/main.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AboutPage from './pages/AboutPage';
-import MainHeader from './pages/MainPage';
+import MainHeader from './pages/MainHeader';
 import ResumePage from './pages/Resume';
 import Contact from './pages/Contact';
+import Projects from './pages/ProjectsPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );
