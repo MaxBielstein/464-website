@@ -23,6 +23,9 @@ function MainHeader() {
                       <div className="flex-item">
                           <Link to="/projects">Projects Page</Link>
                       </div>
+                      <div className="flex-item">
+                          <Link to="/skills">Skills Page</Link>
+                      </div>
                   </div>
               </div>
           </div>

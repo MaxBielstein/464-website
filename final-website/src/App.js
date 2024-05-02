@@ -5,6 +5,7 @@ import MainHeader from './pages/MainHeader';
 import ResumePage from './pages/Resume';
 import Contact from './pages/Contact';
 import Projects from './pages/ProjectsPage';
+import SkillsPage from './pages/SkillsPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<SkillsPage />} />
       </Routes>
     </BrowserRouter>
   );

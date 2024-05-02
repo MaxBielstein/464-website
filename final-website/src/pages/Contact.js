@@ -1,8 +1,9 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import '../css/contact.css';
 
 function Contact() {
+
   return (
     <div className="contact main-contact">
       <div className="contact-info">

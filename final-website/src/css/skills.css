@@ -1,0 +1,46 @@
+.container {
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .skillsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    overflow: hidden; /* Ensures the content doesn't overflow during transition */
+  }
+  
+  .skillItem {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skillItem:hover {
+    background-color: #ffffff;
+  }
+  
+  .ReactCollapse--collapse {
+    transition: height 500ms ease; /* Adjust the duration as needed */
+  }
+  
