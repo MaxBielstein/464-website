@@ -1,9 +1,15 @@
-.main-header {
+.main-header-container {
     font-size: 16px;
     background-color: lightblue;
     text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-header {
+    margin-bottom: 10px;
+    color: black;
 }
 
 .main-box {
@@ -29,7 +35,6 @@
     }
 }
 
-
 .flex-div {
     display: flex;
     justify-content: center;
@@ -38,36 +43,6 @@
 }
 
 .flex-item {
-    margin-left: 0.4rem; 
-    margin-right: 0.4rem;
-}
-
-.h2 {
-    font-size: 90px;
-}
-
-
-.bottomP{
-    padding-bottom: 2rem;
-}
-
-a {
-    font-size: larger;
-    background-color: darkgrey;
-    border-radius: 0.4rem;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: rgb(105, 179, 179);
-}
-
-li {
-    margin-bottom: 10px; 
-    padding: 10px;
-    border-radius: 4px;
-}
-
-body {
-    background-color: lightblue;
-}
+    margin-left: 10px;
+    background-color: #f0f0f0;
+  }
