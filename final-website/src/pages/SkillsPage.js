@@ -7,11 +7,10 @@ const SkillsPage = () => {
   const [isToolsOpen, setIsToolsOpen] = useState(false);
 
   useEffect(() => {
-    // Simulate a delay to show animation when navigating to the page
     const timer = setTimeout(() => {
       setIsLangOpen(true);
       setIsToolsOpen(true);
-    }, 300); // Delay in ms
+    }, 300);
     return () => clearTimeout(timer);
   }, []);
 

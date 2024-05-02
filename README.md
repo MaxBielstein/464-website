@@ -17,9 +17,9 @@ https://464-website-git-main-max-bielsteins-projects.vercel.app/
 ### 1 Skills page to display all skills that I have (COMPLETE)
 ### 2 Drop down on skills page for each category (COMPLETE)
 ### 3 Links to documentation of each skill (e.g. Java docs) (COMPLETE)
-### 4 Hangman game to display scripting skills
-### 5 Hangman game reset feature
-### 6 Hangman game winning confetti
+### 4 Hangman game to display scripting skills (COMPLETE)
+### 5 Hangman game reset feature (COMPLETE)
+### 6 Hangman game winning confetti (COMPLETE)
 ### 7 Links page that links to my other websites such as my linkedin
 ### 8 Background color changing slider
 ### 9 API integration page (not sure on the API yet) to display my skills of using REST APIs

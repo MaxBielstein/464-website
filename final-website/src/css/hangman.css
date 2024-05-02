@@ -1,0 +1,71 @@
+.hangmanGame .container {
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hangmanGame .button, .hangmanGame .letterButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    flex: 1 0 20%; 
+    min-width: 30px;
+    max-width: 60px;
+}
+
+.hangmanGame .button:hover, .hangmanGame .letterButton:hover {
+    background-color: #0056b3;
+}
+
+.hangmanGame .letterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10%;
+}
+
+.hangmanGame .wordDisplay {
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hangmanGame .tryAgainText, .hangmanGame .winText {
+    margin: 20px 0;
+}
+
+.hangmanGame .gameOverText {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hangmanGame .playAgainButton {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hangmanGame .playAgainButton:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.hangmanGame .letterButton:disabled {
+    color: grey;
+    background-color: #ccc;
+    border-color: #aaa;
+}
