@@ -20,8 +20,8 @@ https://464-website-git-main-max-bielsteins-projects.vercel.app/
 ### 4 Hangman game to display scripting skills (COMPLETE)
 ### 5 Hangman game reset feature (COMPLETE)
 ### 6 Hangman game winning confetti (COMPLETE)
-### 7 Links page that links to my other websites such as my linkedin
-### 8 Background color changing slider
-### 9 API integration page (not sure on the API yet) to display my skills of using REST APIs
-### 10 API data displaying (possibly charts or something)
+### 7 Links page that links to my other websites such as my linkedin (COMPLETE)
+### 8 Background color changing slider (COMPLETE)
+### 9 API integration page (not sure on the API yet) to display my skills of using REST APIs (COMPLETE)
+### 10 API data displaying (possibly charts or something) (COMPLETE)
 

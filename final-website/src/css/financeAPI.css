@@ -1,0 +1,38 @@
+.stock-history-page .container {
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+  }
+  
+  .stock-history-page .MuiTextField-root {
+    width: 100%;
+  }
+  
+  .stock-history-page .MuiButton-root {
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .stock-history-page .MuiToggleButtonGroup-root {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .stock-history-page .MuiToggleButton-root {
+    width: calc(33.333% - 8px);
+    border: none;
+  }
+  
+  .stock-history-page .Mui-selected,
+  .stock-history-page .MuiToggleButton-root:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .stock-history-page .canvas {
+    width: 100%;
+    height: 400px;
+  }

@@ -10,8 +10,8 @@ function MainHeader() {
         <Typography variant="h6" className="name-header">Max Bielstein</Typography>
         <div className="flex-div">
           <Button component={Link} to="/about" className="flex-item">Home Page</Button>
-          <Button component={Link} to="/contact" className="flex-item">Contact Page</Button>
           <Button component={Link} to="/resume" className="flex-item">Resume Page</Button>
+          <Button component={Link} to="/finance" className="flex-item">Finance API</Button>
           <Button component={Link} to="/projects" className="flex-item">Projects Page</Button>
           <Button component={Link} to="/skills" className="flex-item">Skills Page</Button>
           <Button component={Link} to="/links" className="flex-item">Links Page</Button>

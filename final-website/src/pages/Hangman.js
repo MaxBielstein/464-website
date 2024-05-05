@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Confetti from 'react-confetti';
 import '../css/hangman.css';
-const wordsList = [
-    "react", "javascript", "middleware", "function", "variable",
-    "constant", "programming", "interface", "inheritance", "component",
-    "framework", "library", "state", "props", "hooks",
-    "context", "redux", "router", "node", "express"
-];
+// const wordsList = [
+//     "react", "javascript", "middleware", "function", "variable",
+//     "constant", "programming", "interface", "inheritance", "component",
+//     "framework", "library", "state", "props", "hooks",
+//     "context", "redux", "router", "node", "express"
+// ];
+const wordsList = ['state', 'props']; // For presentation
 
 const Hangman = () => {
     const [word, setWord] = useState("");
